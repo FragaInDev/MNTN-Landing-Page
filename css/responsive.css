@@ -1,0 +1,79 @@
+@media(max-width: 1030px) {
+    h1 {
+        font-family: Sora;
+        text-align: center;
+        font-size: 88px;
+        font-weight: 400;
+        line-height: 113%;
+        
+        color: #f1f1f1;
+    }
+
+    .cards {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .card {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card p {
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+}
+
+@media(max-width: 900px){
+    h1 {
+        font-size: 6.4rem;
+    }
+}
+
+@media(max-width: 500px){
+    .hero {
+        height: 468px;
+    }
+
+    .text-hero {
+        padding-top: 18.5rem;
+    }
+
+    h1 {
+        font-size: 3.8rem;
+    }
+
+    footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ls {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ls img{
+        margin-left: 0;
+    }
+
+    .ls p {
+        text-align: center;
+    }
+
+    .rs {
+        display: none;
+    }
+}

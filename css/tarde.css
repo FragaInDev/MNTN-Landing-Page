@@ -1,0 +1,200 @@
+header {
+    position: fixed;
+    width: 100%;
+    height: 81px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    backdrop-filter: blur(1.6rem) saturate(180%);
+    -webkit-backdrop-filter: blur(1.6rem) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-bottom: .1rem solid rgba(255, 255, 255, 0.125);
+}
+
+
+/*=================================== Hero Section =====================================*/
+.hero {
+    width: 100%;
+    height: 911px;
+
+    background-image: url(/assets/bg-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.text-hero {
+    padding-top: 285px;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.tag {
+    border-radius: .4rem;
+    padding: 4px 16px;
+    background-color: #252525;
+    margin-bottom: 16px;
+}
+
+.tag p {
+    font-family: Sora;
+    font-size: 1.6rem;
+    letter-spacing: .45rem;
+    
+    background: linear-gradient(90deg, #F6BD28 0%, #FF88C1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+h1 {
+    font-family: Sora;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 400;
+    line-height: 113%;
+    
+    color: #f1f1f1;
+}
+
+.scroll {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.scroll span {
+    font-family: Poppins;
+    letter-spacing: .25rem;
+    margin-right: 12px;
+
+    color: #FD959E;
+}
+
+
+/*=================================== Card Section =====================================*/
+.card-section {
+    padding-top: 88px;
+    padding-bottom: 200px;
+    background-color: #0B141C;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    width: 39.9rem;
+    height: 36.8rem;
+    padding: 4rem 3.6rem;
+
+    background-color: #070a13;
+    border-radius: .4rem;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    margin-bottom: 12px;
+}
+
+.card span{
+    margin-bottom: 1.2rem;
+
+    color: #FD959E;
+
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: .4rem;
+    text-transform: uppercase;
+}
+
+h3 {
+    margin-bottom: 12px;
+
+    color: #fff;
+
+    font-family: Sora;
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card p {
+    color: #FFF;
+
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/*=================================== Footer =====================================*/
+footer {
+    background-color: #0B141C;
+}
+
+footer .container {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    padding: 3.2rem 1.6rem;
+    border-top: 1px solid #FD959E;
+}
+
+.ls img {
+    margin-left: -10px;
+    margin-bottom: 14px;
+}
+
+.ls p {
+    width: 30.3rem;
+    margin-bottom: 1.6rem;
+
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.ls span {
+    color: #FFF;
+    font-size: 12px;
+    opacity: 0.5;
+    
+}
+
+h4 {
+    color: #FD959E;
+    font-family: Sora;
+    font-size: 18px;
+    font-weight: 400;
+
+    margin-bottom: 2.4rem;
+}
+
+li {
+    margin-bottom: 1.6rem;
+}
+
+a {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+
+    transition: all 0.3s;
+}
+
+a:hover {
+    opacity: 0.5;
+}
